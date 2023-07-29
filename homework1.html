@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    /* Reset some default styles */
+    body, h1, p, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Styles for the header */
+    header {
+      background-color: black;
+      color: White;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    h1 {
+      font-size: 36px;
+    }
+
+    /* Styles for the main content */
+    .intro {
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    .intro p {
+      margin: 20px 0;
+    }
+
+    /* Styles for links */
+    a {
+      color: DodgerBlue;
+      text-decoration: none;
+    }
+
+    /* Styles for the image */
+    img {
+      border: 3px solid DarkGray;
+      display: block;
+      margin: 20px auto;
+      max-width: 300px;
+    }
+
+    /* Styles for the table */
+    table {
+      background-color: Gainsboro;
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: black;
+      color: White;
+    }
+
+    /* Styles for the projects list */
+    .projects {
+      margin: 40px 0;
+    }
+
+    .projects li {
+      list-style: disc;
+      margin-left: 40px;
+    }
+
+    /* Styles for the contact form */
+    form {
+      width: 60%;
+      margin: 20px auto;
+    }
+
+    label, input, textarea {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    input[type="submit"] {
+      background-color: DodgerBlue;
+      color: White;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: DarkSlateBlue;
+    }
+  </style>
+</head>
+
+<body style="background-color: DarkGray>
+  <header>
+    <h1>My Portfolio</h1>
+  </header>
+
+  <div class="intro">
+    <p>
+		Hello, I'm Dr. James Andrews. I am a cardiologist <br> 
+		Welcome to my portfolio website!
+    </p>
+    <p>
+       <a href="C:\Users\USER\Downloads\Cirriculum-Vitae_cardiologist.pdf" target="_blank"> You can download my resume</a>
+      
+    </p>
+  </div>
+
+  <img src="C:\Users\USER\Downloads\smiling-doctor-with-strethoscope-isolated-grey.jpg" alt=" Dr. James Andrews">
+
+  <table>
+    <tr>
+      <th>Degree</th>
+      <th>Institution</th>
+      <th>Year</th>
+    </tr>
+    <tr>
+      <td>MBBS </td>
+      <td>University of XYZ</td>
+      <td>2012</td>
+    </tr>
+    <tr>
+      <td>Master of CARDIOLOGIC</td>
+      <td>colombo University</td>
+      <td>2020</td>
+    </tr>
+    
+  </table>
+
+  <div class="projects">
+    <h2>Top Projects</h2>
+    <ol>
+      <li>
+        <strong>Project 1:</strong> ETIO-CLINICAL PROFILE
+        <p>Etio-clinical Profile of patients with premature coronary artery disease with Special focus on risk factors in young</p>
+      </li>
+      <li>
+		<br>
+        <strong>Project 2:</strong> omparative Evaluation of Efficacy and Safety 
+        <p>Comparative Evaluation of Efficacy and Safety of Telmisartan + Chlorthalidone Combination with Telmisartan + Hydrochlorothiazide Combination in Patients with Mild to Moderate Essential Hypertension</p>
+      </li>
+      <li>
+		<br>
+        <strong>Project 3:</strong> Rheumatic Heart Disease
+        <p>A hospital based study of Rheumatic Heart Disease: Trends in the past 10 years in a tertiary care hospital of North Clifonia.
+</p>
+      </li>
+    </ol>
+  </div>
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
